@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Заявка на получение книги</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="card">
+    <h2>Заявка на получение книги</h2>
+    <p class="hint">Заявка в библиотеку (имя, номер билета, жанр книги, Электронная версия, «Срок аренды»).</p>
+
+    <form id="myForm">
+      <div>
+        <label for="name">Имя</label>
+        <input id="name" name="name" type="text" placeholder="Введите имя" required />
+      </div>
+
+      <div>
+        <label for="id">Номер билета</label>
+        <input id="id" name="id" type="number" min="0" max="1000000" placeholder="Номер билета" required />
+      </div>
+
+      <div>
+        <label for="genre">Жанр книги</label>
+        <select id="genre" name="genre" required>
+          <option value="">— выберите жанр —</option>
+          <option value="detective">Детективы</option>
+          <option value="fantasy">Фантастика</option>
+          <option value="love story">Романтика</option>
+          <option value="drama">Драма</option>
+        </select>
+      </div>
+
+      <div class="controls">
+        <label><input type="checkbox" name="e-version" value="yes"> Электронная версия </label>
+      </div>
+
+      <div>
+        <label> Продолжительность аренды </label>
+        <label><input type="radio" name="duration" value="day" required> День </label>
+        <label><input type="radio" name="duration" value="week"> Неделя </label>
+        <label><input type="radio" name="duration" value="month"> Месяц </label>
+      </div>
+
+      <div class="controls">
+        <button type="submit">Отправить</button>
+        <button type="button" id="clearBtn">Очистить</button>
+      </div>
+    </form>
+
+    <div id="result" aria-live="polite">Ваша заявка будет обработана после заполнения формы.</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
