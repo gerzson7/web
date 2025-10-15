@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("myForm");
-  const result = document.getElementById("result");
+  // const result = document.getElementById("result");
   const clearBtn = document.getElementById("clearBtn");
 
   let lastInputAt = Date.now();
@@ -31,16 +31,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 3000);
 
   form.addEventListener("submit", (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     const fd = new FormData(form);
 
-    let output = "<h3>Данные формы</h3><ul>";
+    //Собираем данные для alert
+    let alertText = "Данные формы:\n";
     for (const [name, value] of fd.entries()) {
-      output += `<li><b>${name}:</b> ${value}</li>`;
+      alertText += `${name}: ${value}\n`;
     }
-    output += "</ul>";
+    alert(alertText);
 
-    result.innerHTML = output;
+    //result.innerHTML = alertText;
   });
 
   clearBtn.addEventListener("click", () => {

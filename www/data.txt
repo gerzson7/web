@@ -1,0 +1,7 @@
+юля;78755;detective;yes;day
+вовчик;777777;love story;нет;month
+123;123123;detective;yes;month
+123;1233;love story;yes;day
+123;123123;love story;нет;day
+123;123123;detective;yes;day
+Свага;321;drama;yes;week
