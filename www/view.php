@@ -60,7 +60,7 @@
                                 ];
                                 $durationDisplay = $durationNames[$duration] ?? $duration;
                                 
-                                $versionBadge = ($e_version == 'да') ? 
+                                $versionBadge = ($e_version == 'yes') ? 
                                     '<span class="badge bg-success">Электронная</span>' : 
                                     '<span class="badge bg-secondary">Бумажная</span>';
                             ?>

@@ -5,3 +5,5 @@
 123;123123;love story;нет;day
 123;123123;detective;yes;day
 Свага;321;drama;yes;week
+валерия;44444;fantasy;yes;month
+вапр;3333;detective;нет;day

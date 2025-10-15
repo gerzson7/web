@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <p><strong>Жанр книги:</strong> <?= htmlspecialchars($_SESSION['genre']) ?></p>
-                                    <p><strong>Электронная версия:</strong> <?= isset($_SESSION['e-version']) ? 'да' : 'нет' ?></p>
+                                    <p><strong>Электронная версия:</strong> <?= isset($_SESSION['e-version']) ? 'yes' : 'no' ?></p>
                                     <p><strong>Срок аренды:</strong> <?= htmlspecialchars($_SESSION['duration']) ?></p>
                                 </div>
                             </div>
