@@ -138,28 +138,28 @@ docker-compose up -d --build
   
 5. Скриншоты
 > Шаг 1. Подготовка формы для РНР. Настройка script.js и form.data
-![1](<screenshots\лаба3_шаг1_форм_1.png>)
-![2](<screenshots\лаба3_шаг_1_форм_2.png>)
-![3](<screenshots\лаба3_шаг1_джс.png>)
+![1](<screenshots/лаба3_шаг1_форм_1.png>)
+![2](<screenshots/лаба3_шаг_1_форм_2.png>)
+![3](<screenshots/лаба3_шаг1_джс.png>)
 
 > Шаг 2. Создание process.php:
-![4](<screenshots\лаба3_шаг2.png>)
+![4](<screenshots/лаба3_шаг2.png>)
 
 > Шаг 3. Вывод данных из сессии на index.php. Добавили ссылки на форму и на просмотр всех данны:
-![5](<screenshots\лаба3_шаг3.png>)
+![5](<screenshots/лаба3_шаг3.png>)
 
 > Шаг 4.  Сохранение данных в файл
-![6](<screenshots\лаба3_шаг4.png>)
+![6](<screenshots/лаба3_шаг4.png>)
 
 > Шаг 5.  Просмотр всех данных. Создание view.php, который читает data.txt:
-![7](<screenshots\лаба3_шаг5_1.png>)
-![8](<screenshots\лаба3_шаг5_2.png>)
+![7](<screenshots/лаба3_шаг5_1.png>)
+![8](<screenshots/лаба3_шаг5_2.png>)
 
 > Шаг 6.  Просмотр всех данных:
-![9](<screenshots\лаба3_шаг6.png>)
+![9](<screenshots/лаба3_шаг6.png>)
 
 > Шаг 7.  Итоговая форма и файл data.txt:
-![10](<screenshots\лаба3_шаг7_2.png>)
-![11](<screenshots\лаба3_шаг7_3.png>)
-![12](<screenshots\лаба3_шаг7_4.png>)
-![13](<screenshots\лаба3_шаг7_1.png>)
+![10](<screenshots/лаба3_шаг7_2.png>)
+![11](<screenshots/лаба3_шаг7_3.png>)
+![12](<screenshots/лаба3_шаг7_4.png>)
+![13](<screenshots/лаба3_шаг7_1.png>)
