@@ -52,6 +52,21 @@ $_SESSION['duration'] = $duration;
 $line = $name . ";" . $id . ";" . $genre . ";" . $e_version . ";" . $duration . "\n";
 file_put_contents("data.txt", $line, FILE_APPEND);
 
+// УСТАНОВКА COOKIE
+setcookie("last_submission", date('Y-m-d H:i:s'), time() + 3600, "/");
+
+//Шаг 2: интеграция АPI
+require_once 'ApiClient.php';
+$api = new ApiClient();
+
+$search_query = urlencode($genre); // используем выбранный жанр для поиска
+$url = "https://openlibrary.org/search.json?q=$search_query&limit=5";
+$apiData = $api->request($url);
+
+// Сохраняем данные API в сессию
+$_SESSION['api_data'] = $apiData;
+
+
 // После сохранения в сессию перенаправляем обратно на главную страницу
 header("Location: index.php");
 exit();

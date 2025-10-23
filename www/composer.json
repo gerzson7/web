@@ -1,0 +1,13 @@
+{
+    "name": "julia/lab4",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Julia"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
