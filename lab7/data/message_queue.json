@@ -1,0 +1,44 @@
+[
+    {
+        "id": "691e5794a47df",
+        "data": {
+            "request_id": "691e5794a4734",
+            "name": "Иванов Иван Иванович",
+            "ticket_number": "ЛБ-2024-001",
+            "genre": "Фантастика",
+            "electronic": "Да",
+            "rental_period": "1 неделя",
+            "timestamp": "2025-11-19 23:49:40",
+            "action": "library_request"
+        },
+        "timestamp": "2025-11-19 23:49:40"
+    },
+    {
+        "id": "691e5917393fa",
+        "data": {
+            "request_id": "691e59173936c",
+            "name": "Иванов Иван Иванович",
+            "ticket_number": "ЛБ-2024-001",
+            "genre": "Фантастика",
+            "electronic": "Да",
+            "rental_period": "1 неделя",
+            "timestamp": "2025-11-19 23:56:07",
+            "action": "library_request"
+        },
+        "timestamp": "2025-11-19 23:56:07"
+    },
+    {
+        "id": "691e5b9c422ac",
+        "data": {
+            "request_id": "691e5b9c3924e",
+            "name": "Иванов Иван Иванович",
+            "ticket_number": "ЛБ-2024-001",
+            "genre": "Фантастика",
+            "electronic": "Да",
+            "rental_period": "1 неделя",
+            "timestamp": "2025-11-20 00:06:52",
+            "action": "library_request"
+        },
+        "timestamp": "2025-11-20 00:06:52"
+    }
+]

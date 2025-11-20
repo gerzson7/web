@@ -12,3 +12,4 @@
 4. [Лабораторная работа №4: Внешние библиотеки и API](<markdown/lab4.md>)
 5. [Лабораторная работа №5:  Работа с базой данных MySQL через PHP и Docker](<markdown/lab5.md>)
 6. [Лабораторная работа №6:  Изучение нереляционных баз данных (Redis, Elasticsearch, ClickHouse) и взаимодействие с ними через API с помощью GuzzleClient.](<markdown/lab6.md>)
+7. [Асинхронная обработка данных через очереди сообщений (RabbitMQ / Kafka)](<markdown/lab7.md>)
