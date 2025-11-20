@@ -31,33 +31,33 @@ nginx.conf — конфигурация Nginx
 
 ## Скриншоты
 > Шаг 1. Конфигурация файла composer.json с базовыми настройками проекта
-![0](<../screenshots\lab7\composer_json.png>) 
+![0](<../screenshots/lab7/composer_json.png>) 
 
 > Шаг 2. Реализация файловой базы данных для хранения заявок и статистики
-![1](<../screenshots\lab7\db.png>)
+![1](<../screenshots/lab7/db.png>)
 
 >  Шаг 3.  Настройка Dockerfile с базовой конфигурацией PHP-FPM
-![2](<../screenshots\lab7\docker file.png>)
+![2](<../screenshots/lab7/docker file.png>)
 
 >  Шаг 4.  Конфигурация многоконтейнерного приложения с nginx и PHP-FPM
-![3](<../screenshots\lab7\docker_composer_yml.png>)
+![3](<../screenshots/lab7/docker_composer_yml.png>)
 
 >  Шаг 5. Главная страница приложения - система управления библиотечными заявками
-![4](<../screenshots\lab7\localhost.png>)
+![4](<../screenshots/lab7/localhost.png>)
 
 > Шаг 6.  Реализация менеджера очереди сообщений на основе файловой системы
 https://queue_manager.png
-![5](<../screenshots\lab7\queue_manager.png>)
+![5](<../screenshots/lab7/queue_manager.png>)
 
 > Шаг 7. Обработчик отправки заявок в очередь
-![6](<../screenshots\lab7\send.png)
+![6](<../screenshots/lab7/send.png)
 
 > Шаг 8. Модель данных для работы с заявками студентов
-![7](<../screenshots\lab7\student.png>)
+![7](<../screenshots/lab7/student.png>)
 
 > Шаг 9. Воркер для асинхронной обработки сообщений из очереди 
-![8](<../screenshots\lab7\worker.png>)
+![8](<../screenshots/lab7/worker.png>)
 
 > Шаг 10.  Главная страница веб-приложения онлайн-библиотеки, предоставляющая интерфейс для оформления заявок на книги и отображения статистики.
-![9](<../screenshots\lab7\index.png>)
+![9](<../screenshots/lab7/index.png>)
 
